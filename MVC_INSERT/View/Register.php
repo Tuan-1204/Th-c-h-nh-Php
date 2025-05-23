@@ -9,11 +9,11 @@
    
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <table class="table table-success table-striped" >
-                <h2>ĐĂNG KÍ THÔNG TIN</h2>
-                <form action="controller.php" method="Post" enctype="multipart/form-data">
+    <div class="container bg-success p-2" style="--bs-bg-opacity: .5;">
+        <div class="row  mt-5">
+            <table class="table table-success table-striped d-flex justify-content-lg-center " >
+                <h2 class="text-center">ĐĂNG KÍ THÔNG TIN</h2>
+                <form action="controller.php" method="Post" enctype="multipart/form-data" class="rounded-2">
                     <tr>
                         <td><label for="name">Họ và tên:</label></td>
                         <td><input type="text" name="txtuser" id="name" required>(*)</td>

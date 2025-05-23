@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng kí mới</title>
+    <title>Danh sách người dùng</title>
     <link rel="stylesheet" href="/WPHP/bootstrap-5.3.6-dist/bootstrap-5.3.6-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/WPHP/Assets/Css/style.css">
 </head>
 <body>
-    <div class="container bg-info-subtle">
-<div class="row"></div>
-<a href="Register.php">Đăng ký Mới</a> 
-<table class="table table-success table-striped">
+    <div class="container bg-success p-2" style="--bs-bg-opacity: .5;">
+<div class="row">
+    <a href="Register.php">Đăng ký Mới</a> 
+<table class="table table-bordered border-primary d-flex justify-content-lg-center rounded-2">
     <tr>
         <th>STT</th>
         <th>Tên đăng nhập</th>
@@ -46,6 +46,8 @@ while ($i_user = mysqli_fetch_assoc($select_user)) {
 }
 ?>
 </table>
+</div>
+
 
 
 </div>
