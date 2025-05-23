@@ -47,7 +47,7 @@ foreach($select as $se_con)// lặp qua từng phần tử trong mảng
 ?>
 
 <?php
-if(isset($_POST['txtsubmit'])) // thực thi sau khi ấn nút submit
+if(isset($_POST['txtsub'])) // thực thi sau khi ấn nút submit
 {
     move_uploaded_file($_FILES['txtfile']['tmp_name'], "../images/".$_FILES['txtfile']['name']); // di chuyển file ảnh
    $update = update_contact(
