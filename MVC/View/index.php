@@ -9,8 +9,9 @@ $select = select_all();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
-<link rel="stylesheet" href="/bootstrap-5.3.6-dist/bootstrap-5.3.6-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Assets/Css/style.css">
+<link rel="stylesheet" href="/WPHP/bootstrap-5.3.6-dist/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/WPHP/Assets/Css/style.css">
+    
 </head>
 <body>
 
@@ -96,7 +97,7 @@ $select = select_all();
 </table>
 </div>
 </div>
->
-<script src="/bootstrap-5.3.6-dist/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+</div>
+<script src="/WPHP/bootstrap-5.3.6-dist/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
